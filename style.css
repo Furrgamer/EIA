@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(255, 205, 243);
+    background-color: #3D314A;
 }
 
 header {
@@ -90,4 +90,19 @@ footer {
     width: 100vw;
     padding: 20px 0;
     text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.mo {
+    background-color: #3D314A;
+}
+
+.mc img{
+    
 }
