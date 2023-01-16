@@ -1,0 +1,157 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #3D314A;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+.nav .ul {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.nav a {
+    color: #B4ADEA;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: 0.5s;
+}
+
+a.boton:hover {
+    background-color: #B4ADEA;
+    color: #1A1423;
+}
+
+ul li {
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+footer {
+    background-color: #1A1423;
+    height: auto;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 40px;
+    color: aliceblue;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    color: aliceblue;
+}
+
+.socials a i {
+    font-size: 1.8rem;
+}
+.socials a:hover i {
+    color: #B4ADEA;
+}
+
+.footer-bottom {
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.mo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #B4ADEA;
+    text-align: justify;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #1A1423;
+}
+.title {
+    font-family: 'Parisienne', cursive; 
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #1A1423;
+    
+}
+.title2 {
+    font-family: 'Parisienne', cursive; 
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #1A1423;
+    
+}
+
+.mc img{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+}
+.image-container {
+  position: relative;
+  width: 50%;
+}
+
+.image-text {
+  position: relative;
+  bottom: 500px;
+  left: 700px;
+  right: 300px;
+  color:   #3D314A;
+  font-size: 34px;
+}
+
+  
