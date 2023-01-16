@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #3D314A;
 }
 
@@ -15,12 +15,12 @@ header {
 
 .nav li {
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 }
 
 .nav a {
-    color: black;
+    color: #B4ADEA;
     text-decoration: none;
     padding: 10px;
     display: block;
@@ -28,8 +28,8 @@ header {
 }
 
 a.boton:hover {
-    background-color: aquamarine;
-    color: rgb(0, 24, 239);
+    background-color: #B4ADEA;
+    color: #1A1423;
 }
 
 ul li {
@@ -40,9 +40,9 @@ ul li {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.73);
+    background-color: #1A1423;
     height: auto;
-    width: 100vw;
+    width: 100%;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 40px;
     color: aliceblue;
@@ -82,12 +82,12 @@ footer {
     font-size: 1.8rem;
 }
 .socials a:hover i {
-    color: aqua;
+    color: #B4ADEA;
 }
 
 .footer-bottom {
     background-color: black;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
@@ -100,9 +100,58 @@ footer {
 }
 
 .mo {
-    background-color: #3D314A;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #B4ADEA;
+    text-align: justify;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #1A1423;
+}
+.title {
+    font-family: 'Parisienne', cursive; 
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #1A1423;
+    
+}
+.title2 {
+    font-family: 'Parisienne', cursive; 
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #1A1423;
+    
 }
 
 .mc img{
-    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    margin: 0 auto;
+    width: 55%;
 }
+.image-container {
+  position: relative;
+  width: 50%;
+}
+
+.image-text {
+  position: relative;
+  bottom: 500px;
+  left: 700px;
+  right: 300px;
+  color:   #3D314A;
+  font-size: 34px;
+}
+
+  
